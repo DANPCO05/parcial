@@ -1,0 +1,25 @@
+/* encabezado */
+header {
+    background-color: #7a1071;
+    color: #fffdfd;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #a87c9f;
+}

@@ -1,0 +1,90 @@
+/* encabezado */
+header {
+    background-color: #7a1071;
+    color: #fffdfd;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #a87c9f;
+}
+
+/* carrusel*/
+.carousel-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.carousel {
+    width: 60%;
+    overflow: hidden;
+    border-radius: 10px;
+    max-width:1000px;
+    width: 80%;
+    margin:auto;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.description {
+    width: 35%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.description h3 {
+    margin-top: 0;
+}
+/*::*/
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+.switch{
+    margin-left: 25%;
+    position: relative;
+    width: 40px;
+    height: 20px;
+    border: 2px solid rgb(134 145 169);
+    display: flex;
+    border-radius: 35px;
+}
+.checkbox{
+    display: none;
+}
+
+.slider{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(94,156,207);
+}
+
+input:checked + .slider{
+    translate: 20px;
+}
+
+
+
